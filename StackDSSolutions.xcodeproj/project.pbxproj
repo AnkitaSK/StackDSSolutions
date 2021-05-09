@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		F68198E62643F9EF000792C4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68198E52643F9EF000792C4 /* main.swift */; };
+		F68198ED2643FA1F000792C4 /* StackProblemSolutions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68198EC2643FA1F000792C4 /* StackProblemSolutions.swift */; };
+		F68198EF2643FAD4000792C4 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68198EE2643FAD4000792C4 /* Stack.swift */; };
+		F68198F1264419D6000792C4 /* StockSpanProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68198F0264419D6000792C4 /* StockSpanProblem.swift */; };
+		F68198F326444191000792C4 /* MaxAreaHistogramProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68198F226444191000792C4 /* MaxAreaHistogramProblem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		F68198E22643F9EF000792C4 /* StackDSSolutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StackDSSolutions; sourceTree = BUILT_PRODUCTS_DIR; };
 		F68198E52643F9EF000792C4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F68198EC2643FA1F000792C4 /* StackProblemSolutions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackProblemSolutions.swift; sourceTree = "<group>"; };
+		F68198EE2643FAD4000792C4 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		F68198F0264419D6000792C4 /* StockSpanProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockSpanProblem.swift; sourceTree = "<group>"; };
+		F68198F226444191000792C4 /* MaxAreaHistogramProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxAreaHistogramProblem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				F68198E52643F9EF000792C4 /* main.swift */,
+				F68198EC2643FA1F000792C4 /* StackProblemSolutions.swift */,
+				F68198F0264419D6000792C4 /* StockSpanProblem.swift */,
+				F68198F226444191000792C4 /* MaxAreaHistogramProblem.swift */,
+				F68198EE2643FAD4000792C4 /* Stack.swift */,
 			);
 			path = StackDSSolutions;
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F68198F1264419D6000792C4 /* StockSpanProblem.swift in Sources */,
 				F68198E62643F9EF000792C4 /* main.swift in Sources */,
+				F68198F326444191000792C4 /* MaxAreaHistogramProblem.swift in Sources */,
+				F68198EF2643FAD4000792C4 /* Stack.swift in Sources */,
+				F68198ED2643FA1F000792C4 /* StackProblemSolutions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
